@@ -1,0 +1,28 @@
+html {
+  background-image: url('../../img/hegemonic_vibrations.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+a {
+    font-family: courier;
+    color: white;
+    font-size: 300%;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-link {
+    margin-right: 30px;
+    margin-left: 30px;
+}

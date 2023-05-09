@@ -1,9 +1,10 @@
-html {
-}
 .masthead {
-    background-size: cover;
-    min-height: 60vh;   /* or 100vh (fit down page) */
+    background-image: url('../../img/hegemonic_vibrations_large.gif');
+    background-size: cover, contain;
     position: relative;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: scroll;
     color: green;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
@@ -16,24 +17,23 @@ html {
 }
 
 @media (max-width: 576px) {
-    .masthead{
-        min-height: 100vh; 
+    .masthead {
+        background-image: url('../../img/hegemonic_vibrations.gif');
+        min-height: 100vh;
     }
     p {
+        margin-left: 50px;
         font-size: calc(1.525rem + 3.3vw);
     }
-}
-body {
-    background: rgb(60, 60, 60);
-    background: rgba(60, 60, 60, 0.0);
 }
 
 @font-face {
     font-family: vcr;
-    src: url(../../VCR_OSD_MONO_1.001.ttf);
+    src: url(../VCR_OSD_MONO_1.001.ttf);
 }
 
 p {
+    margin-left: 50px;
     font-family: vcr;
     color: #32cd32;
     font-size: 175%

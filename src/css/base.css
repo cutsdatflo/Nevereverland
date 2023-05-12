@@ -1,6 +1,7 @@
 .masthead {
-    background-image: url('../../img/hegemonic_vibrations_large.gif');
-    background-size: cover, contain;
+    background-image: url('../../img/hegemonic_vibrations.gif');
+    background-size: contain;
+    background-color: #9966ff;
     position: relative;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -18,7 +19,7 @@
 
 @media (max-width: 576px) {
     .masthead {
-        background-image: url('../../img/hegemonic_vibrations.gif');
+        background-size: cover;
         min-height: 100vh;
     }
     p {
